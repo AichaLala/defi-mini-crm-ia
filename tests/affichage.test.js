@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { formatMontantFcfa } from "../tableau.js";
@@ -11,6 +12,8 @@ test("formatMontantFcfa affiche des milliers séparés par des espaces", () => {
 });
 
 test("le tableau de bord n'est visible que pour la responsable", () => {
+  // Garde-fou de la règle extraite. Le 10:59, ce fichier n'a pas pu s'exécuter
+  // (export formatMontantFcfa absent) : pas d'échec d'assertion avant correction.
   assert.equal(
     peutVoirTableauDeBord({ id: "u3", role: "responsable" }),
     true,
@@ -23,4 +26,9 @@ test("le tableau de bord n'est visible que pour la responsable", () => {
     peutVoirTableauDeBord({ id: "u2", role: "commercial" }),
     false,
   );
+});
+
+test("le HTML masque le tableau de bord par défaut", () => {
+  const html = readFileSync(new URL("../index.html", import.meta.url), "utf8");
+  assert.match(html, /id="tableau-de-bord"[^>]*\bhidden\b/);
 });

@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { clientsVisibles } from "../acces.js";
@@ -39,6 +40,7 @@ test("les clients sans propriétaire ne sont pas visibles par un commercial", ()
 });
 
 test('le propriétaire "u1 " avec un espace final n\'appartient pas à u1', () => {
+  // Garde-fou : ce cas isolé passait déjà avec == avant le passage à ===.
   const jeu = [
     { id: "c-u1", proprietaire: "u1" },
     { id: "c-espace", proprietaire: "u1 " },
@@ -49,4 +51,18 @@ test('le propriétaire "u1 " avec un espace final n\'appartient pas à u1', () =
     false,
   );
   assert.deepEqual(visibles.map((c) => c.id), ["c-u1"]);
+});
+
+test("les données de départ : c16 a proprietaire \"u1 \" et n'est pas visible de u1", () => {
+  const clients = JSON.parse(
+    readFileSync(new URL("../donnees/clients.json", import.meta.url), "utf8"),
+  );
+  const c16 = clients.find((c) => c.id === "c16");
+  assert.equal(c16.proprietaire, "u1 ");
+  assert.notEqual(c16.proprietaire, "u1");
+  const visibles = clientsVisibles(
+    { id: "u1", role: "commercial" },
+    [c16],
+  );
+  assert.equal(visibles.length, 0);
 });
