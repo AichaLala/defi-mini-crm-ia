@@ -6,3 +6,7 @@ export function clientsVisibles(utilisateur, clients) {
   }
   return clients.filter((c) => c.proprietaire === utilisateur.id);
 }
+
+export function peutVoirTableauDeBord(utilisateur) {
+  return utilisateur.role === "responsable";
+}

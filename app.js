@@ -1,5 +1,5 @@
-import { clientsVisibles } from "./acces.js";
-import { totalParEtape, totalPipeline } from "./tableau.js";
+import { clientsVisibles, peutVoirTableauDeBord } from "./acces.js";
+import { formatMontantFcfa, totalParEtape, totalPipeline } from "./tableau.js";
 
 const ETAPES = ["prospect", "qualifie", "proposition", "gagne", "perdu"];
 const [utilisateurs, clients] = await Promise.all([
@@ -20,14 +20,24 @@ function afficher() {
     col.innerHTML = `<h2>${etape}</h2>`;
     for (const c of visibles.filter((x) => x.etape === etape)) {
       const carte = document.createElement("article");
-      carte.textContent = `${c.entreprise} — ${c.montant_fcfa} FCFA`;
+      carte.textContent = `${c.entreprise} — ${formatMontantFcfa(c.montant_fcfa)}`;
       col.append(carte);
     }
     colonnes.append(col);
   }
-  // Tableau de bord
-  document.getElementById("total").textContent = totalPipeline(clients) + " FCFA";
-  document.getElementById("par-etape").textContent = JSON.stringify(totalParEtape(clients));
+  const tableau = document.getElementById("tableau-de-bord");
+  if (peutVoirTableauDeBord(moi)) {
+    tableau.hidden = false;
+    document.getElementById("total").textContent = formatMontantFcfa(
+      totalPipeline(clients),
+    );
+    const parEtape = totalParEtape(clients);
+    document.getElementById("par-etape").textContent = ETAPES.map(
+      (etape) => `${etape} : ${formatMontantFcfa(parEtape[etape] || 0)}`,
+    ).join(" · ");
+  } else {
+    tableau.hidden = true;
+  }
 }
 choix.addEventListener("change", afficher);
 afficher();
