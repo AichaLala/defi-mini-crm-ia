@@ -52,7 +52,7 @@ Ces cas existent dans le départ ou l'UI, mais **ne satisfont pas** l'exigence �
 
 ## Couverture : tests automatisés vs vérifications manuelles
 
-**Couvert par `npm test` (`node --test`, fichiers dans `tests/`) :** droits de lecture (`acces.test.js`, `exemple.test.js`) ; totaux et format FCFA (`tableau.test.js`, `affichage.test.js`) ; visibilité du dashboard *en fonction* (`peutVoirTableauDeBord`) et attribut `hidden` du HTML, pas le DOM au runtime ; édition / étapes / réattribution (`crm.test.js`, `permissions.test.js`) ; sauvegarde et rechargement via un faux `localStorage` (`stockage.test.js`).
+**Couvert par** `npm test` **(**`node --test`**, fichiers dans** `tests/`**) :** droits de lecture (`acces.test.js`, `exemple.test.js`) ; totaux et format FCFA (`tableau.test.js`, `affichage.test.js`) ; visibilité du dashboard *en fonction* (`peutVoirTableauDeBord`) et attribut `hidden` du HTML, pas le DOM au runtime ; édition / étapes / réattribution (`crm.test.js`, `permissions.test.js`) ; sauvegarde et rechargement via un faux `localStorage` (`stockage.test.js`).
 
 **Vérifié manuellement dans le navigateur (par moi, pas par l'IA) :** changement d'étape, persistance après actualisation, calculs du pipeline, réaffectation par le manager.
 
@@ -60,6 +60,5 @@ Ces cas existent dans le départ ou l'UI, mais **ne satisfont pas** l'exigence �
 
 ## Ce que je ferais avec plus de temps
 
-- Publier le site sur here.now (non fait).
 - Décider explicitement du sort de c16 (`"u1 "`), sans l'avoir rattaché à Awa par un trim silencieux.
 - Un test DOM runtime de `[hidden]` selon le rôle (absent aujourd'hui).
