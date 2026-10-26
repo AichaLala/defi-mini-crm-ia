@@ -3,9 +3,9 @@
 *À remplir au fil de l'eau, pas à la fin. Soyez honnête : une erreur de l'IA que vous avez repérée compte plus qu'un code parfait
 dont vous ne savez pas d'où il vient.*
 
-- **Nom :**
-- **Outil(s) d'IA utilisé(s), et pour quoi :**
-- **Heure de départ :**
+- **Nom :*Mame Lala Aïcha Dieng*
+- **Outil(s) d'IA utilisé(s), et pour quoi :J’utilise Cursor pour analyser le code existant, m’aider à implémenter les fonctionnalités du mini-CRM, identifier et corriger les défauts, et générer des tests automatisés**
+- **Heure de départ :*9h38*
 
 ## Chronologie
 
