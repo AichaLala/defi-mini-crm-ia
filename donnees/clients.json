@@ -1,0 +1,302 @@
+[
+  {
+    "id": "c01",
+    "entreprise": "Teranga Logistique",
+    "contact": "Contact 01",
+    "telephone": "+221 77 000 01 11",
+    "ville": "Dakar",
+    "etape": "gagne",
+    "montant_fcfa": 150000,
+    "proprietaire": "u2"
+  },
+  {
+    "id": "c02",
+    "entreprise": "Baobab Conseil",
+    "contact": "Contact 02",
+    "telephone": "+221 77 000 02 12",
+    "ville": "Dakar",
+    "etape": "proposition",
+    "montant_fcfa": 250000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c03",
+    "entreprise": "Sahel Agro",
+    "contact": "Contact 03",
+    "telephone": "+221 77 000 03 13",
+    "ville": "Dakar",
+    "etape": "qualifie",
+    "montant_fcfa": 2500000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c04",
+    "entreprise": "Dakar Print",
+    "contact": "Contact 04",
+    "telephone": "+221 77 000 04 14",
+    "ville": "Dakar",
+    "etape": "qualifie",
+    "montant_fcfa": "90000",
+    "proprietaire": "u2"
+  },
+  {
+    "id": "c05",
+    "entreprise": "Keur Immo",
+    "contact": "Contact 05",
+    "telephone": "+221 77 000 05 15",
+    "ville": "Dakar",
+    "etape": "perdu",
+    "montant_fcfa": 150000,
+    "proprietaire": "u2"
+  },
+  {
+    "id": "c06",
+    "entreprise": "Niayes Bio",
+    "contact": "Contact 06",
+    "telephone": "+221 77 000 06 16",
+    "ville": "Dakar",
+    "etape": "prospect",
+    "montant_fcfa": 750000,
+    "proprietaire": null
+  },
+  {
+    "id": "c07",
+    "entreprise": "Corniche Events",
+    "contact": "Contact 07",
+    "telephone": "+221 77 000 07 17",
+    "ville": "Dakar",
+    "etape": "proposition",
+    "montant_fcfa": 750000,
+    "proprietaire": null
+  },
+  {
+    "id": "c08",
+    "entreprise": "Médina Textile",
+    "contact": "Contact 08",
+    "telephone": "+221 77 000 08 18",
+    "ville": "Dakar",
+    "etape": "proposition",
+    "montant_fcfa": 250000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c09",
+    "entreprise": "Gorée Tours",
+    "contact": "Contact 09",
+    "telephone": "+221 77 000 09 19",
+    "ville": "Dakar",
+    "etape": "qualifie",
+    "montant_fcfa": 150000,
+    "proprietaire": "u2"
+  },
+  {
+    "id": "c10",
+    "entreprise": "Almadies Tech",
+    "contact": "Contact 10",
+    "telephone": "+221 77 000 10 20",
+    "ville": "Dakar",
+    "etape": "proposition",
+    "montant_fcfa": 1200000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c11",
+    "entreprise": "Thiès Matériaux",
+    "contact": "Contact 11",
+    "telephone": "+221 77 000 11 21",
+    "ville": "Thiès",
+    "etape": "gagne",
+    "montant_fcfa": 750000,
+    "proprietaire": null
+  },
+  {
+    "id": "c12",
+    "entreprise": "Saloum Pêche",
+    "contact": "Contact 12",
+    "telephone": "+221 77 000 12 22",
+    "ville": "Dakar",
+    "etape": "prospect",
+    "montant_fcfa": "750000",
+    "proprietaire": "u2"
+  },
+  {
+    "id": "c13",
+    "entreprise": "Casamance Fruits",
+    "contact": "Contact 13",
+    "telephone": "+221 77 000 13 23",
+    "ville": "Dakar",
+    "etape": "proposition",
+    "montant_fcfa": 90000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c14",
+    "entreprise": "Ndar Transports",
+    "contact": "Contact 14",
+    "telephone": "+221 77 000 14 24",
+    "ville": "Dakar",
+    "etape": "gagne",
+    "montant_fcfa": 90000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c15",
+    "entreprise": "Liberté Pharma",
+    "contact": "Contact 15",
+    "telephone": "+221 77 000 15 25",
+    "ville": "Dakar",
+    "etape": "perdu",
+    "montant_fcfa": 400000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c16",
+    "entreprise": "Yoff Digital",
+    "contact": "Contact 16",
+    "telephone": "+221 77 000 16 26",
+    "ville": "Dakar",
+    "etape": "prospect",
+    "montant_fcfa": 1200000,
+    "proprietaire": "u1 "
+  },
+  {
+    "id": "c17",
+    "entreprise": "Mermoz Santé",
+    "contact": "Contact 17",
+    "telephone": "+221 77 000 17 27",
+    "ville": "Dakar",
+    "etape": "proposition",
+    "montant_fcfa": 250000,
+    "proprietaire": "u2"
+  },
+  {
+    "id": "c18",
+    "entreprise": "Pikine Batiment",
+    "contact": "Contact 18",
+    "telephone": "+221 77 000 18 28",
+    "ville": "Dakar",
+    "etape": "prospect",
+    "montant_fcfa": 150000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c19",
+    "entreprise": "Rufisque Ciment",
+    "contact": "Contact 19",
+    "telephone": "+221 77 000 19 29",
+    "ville": "Rufisque",
+    "etape": "proposition",
+    "montant_fcfa": 2500000,
+    "proprietaire": null
+  },
+  {
+    "id": "c20",
+    "entreprise": "Joal Marée",
+    "contact": "Contact 20",
+    "telephone": "+221 77 000 20 30",
+    "ville": "Joal",
+    "etape": "qualifie",
+    "montant_fcfa": 400000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c21",
+    "entreprise": "Fann Formation",
+    "contact": "Contact 21",
+    "telephone": "+221 77 000 21 31",
+    "ville": "Dakar",
+    "etape": "prospect",
+    "montant_fcfa": 400000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c22",
+    "entreprise": "Plateau Juridique",
+    "contact": "Contact 22",
+    "telephone": "+221 77 000 22 32",
+    "ville": "Dakar",
+    "etape": "prospect",
+    "montant_fcfa": 90000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c23",
+    "entreprise": "Ouakam Studio",
+    "contact": "Contact 23",
+    "telephone": "+221 77 000 23 33",
+    "ville": "Dakar",
+    "etape": "gagne",
+    "montant_fcfa": 1200000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c24",
+    "entreprise": "Hann Marine",
+    "contact": "Contact 24",
+    "telephone": "+221 77 000 24 34",
+    "ville": "Dakar",
+    "etape": "perdu",
+    "montant_fcfa": 150000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c25",
+    "entreprise": "Sacré-Cœur Optique",
+    "contact": "Contact 25",
+    "telephone": "+221 77 000 25 35",
+    "ville": "Dakar",
+    "etape": "gagne",
+    "montant_fcfa": "150000",
+    "proprietaire": null
+  },
+  {
+    "id": "c26",
+    "entreprise": "Grand-Yoff Auto",
+    "contact": "Contact 26",
+    "telephone": "+221 77 000 26 36",
+    "ville": "Dakar",
+    "etape": "gagne",
+    "montant_fcfa": 150000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c27",
+    "entreprise": "Ngor Hôtellerie",
+    "contact": "Contact 27",
+    "telephone": "+221 77 000 27 37",
+    "ville": "Dakar",
+    "etape": "qualifie",
+    "montant_fcfa": 2500000,
+    "proprietaire": "u1"
+  },
+  {
+    "id": "c28",
+    "entreprise": "Point E Café",
+    "contact": "Contact 28",
+    "telephone": "+221 77 000 28 38",
+    "ville": "Dakar",
+    "etape": "gagne",
+    "montant_fcfa": 400000,
+    "proprietaire": null
+  },
+  {
+    "id": "c29",
+    "entreprise": "Mbour Surf",
+    "contact": "Contact 29",
+    "telephone": "+221 77 000 29 39",
+    "ville": "Mbour",
+    "etape": "prospect",
+    "montant_fcfa": 90000,
+    "proprietaire": null
+  },
+  {
+    "id": "c30",
+    "entreprise": "Kaolack Arachide",
+    "contact": "Contact 30",
+    "telephone": "+221 77 000 30 40",
+    "ville": "Kaolack",
+    "etape": "proposition",
+    "montant_fcfa": 400000,
+    "proprietaire": "u2"
+  }
+]
