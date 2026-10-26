@@ -83,8 +83,8 @@ par l'IA.
 
 ## Livrables (à remplir par le candidat)
 
-- Dépôt : 
-- Site publié sur here.now : 
-- Fichiers publiés (facultatif) : 
-- Outil(s) d'IA utilisé(s) : 
-- Heure de départ / heure de fin : 
+- Dépôt : https://github.com/AichaLala/defi-mini-crm-ia
+- Site publié sur here.now :
+- Fichiers publiés (facultatif) :
+- Outil(s) d'IA utilisé(s) : Cursor, ChatGPT
+- Heure de départ / heure de fin : 9h38 / (heure de fin non renseignée)
